@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./assets/logo.jpg";
+import { TonConnectButton } from "@tonconnect/ui-react";
 
 function Navbar() {
   return (
@@ -45,6 +46,10 @@ function Navbar() {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="navbar  flex-col my-2 p-0 justify-center text-sm bg-green-800 rounded-lg text-white">
+        <TonConnectButton />
       </div>
     </div>
   );
